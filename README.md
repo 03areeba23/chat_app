@@ -1,16 +1,56 @@
-# chat_app
+# WeaveChat
 
-A new Flutter project.
+A real-time chat application built with Flutter, Riverpod, MVVM architecture, and Firebase.
 
-## Getting Started
+## About the Project
 
-This project is a starting point for a Flutter application.
+WeaveChat is a cross-platform chat application that allows users to communicate in real-time. It is built to demonstrate clean architecture, scalable state management, and Firebase integration in Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- User Authentication (Email & Password)
+- Real-time 1-to-1 messaging
+- User profiles
+- Firebase Firestore integration
+- Clean MVVM architecture
+- Riverpod state management
+- Responsive UI design
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+
+- Flutter
+- Dart
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Storage
+- Riverpod (State Management)
+- MVVM Architecture
+- GoRouter (Navigation)
+- Git & GitHub
+
+## Architecture
+
+The app follows MVVM (Model-View-ViewModel) architecture with a feature-first structure.
+
+Flow:
+
+UI (View)
+↓
+ViewModel (Riverpod)
+↓
+Repository Layer
+↓
+Firebase Services
+
+## Folder Structure
+
+lib/
+│
+├── core/
+├── features/
+│ ├── auth/
+│ ├── chat/
+│ └── profile/
+│
+├── shared/
+└── main.dart
