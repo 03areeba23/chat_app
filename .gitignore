@@ -39,6 +39,9 @@ flutter_*.png
 .flutter-plugins
 /coverage/
 
+# Flutter generated files
+/windows/flutter/
+
 # Symbolication related
 app.*.symbols
 
